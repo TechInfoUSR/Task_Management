@@ -1,7 +1,13 @@
-package com.USRInfotech.demo02_model;
+package com.USRInfotech.demo02.models;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Product {
  
+	public Product(){
+		
+	}
 	private int ID;
 	private String ProdName;
 	private int price;
